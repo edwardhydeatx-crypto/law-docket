@@ -86,7 +86,7 @@ export default function MattersPage() {
           <select
             value={filter.status}
             onChange={(e) => setFilter({ ...filter, status: e.target.value })}
-           , status: e className="border rounded-lg px-4 py-2"
+            className="border rounded-lg px-4 py-2"
           >
             <option value="">All Statuses</option>
             <option value="Active">Active</option>
